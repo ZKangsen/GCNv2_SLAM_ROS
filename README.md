@@ -6,7 +6,7 @@ Add ROS support and mono example
 3. CMake 3.13.0
 4. CUDA 10.2
 5. cudnn 8.0.0
-6. pytorch 1.16.0 (Built finished on Xavier: link: https://pan.baidu.com/s/1u95zdF7YUEQumU-4KMu1cw  pwd: 5hae)
+6. pytorch 1.6.0 (Built finished on Xavier: link: https://pan.baidu.com/s/1u95zdF7YUEQumU-4KMu1cw  pwd: 5hae)
 7. Pangolin newest
 8. opencv4 (you can modify the code to compatible with opencv3)
 
@@ -18,7 +18,7 @@ Add ROS support and mono example
 
 # Compile pytorch
 ```shell
-git clone --recursive -b v1.16.0 https://github.com/pytorch/pytorch
+git clone --recursive -b v1.6.0 https://github.com/pytorch/pytorch
 cd pytorch && mkdir build && cd build
 python3 ../tools/build_libtorch.py
 ```
